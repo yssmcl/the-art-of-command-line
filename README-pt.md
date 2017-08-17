@@ -27,24 +27,24 @@ mas dado o interesse por lá,  me pareceu importante usar o Github, onde pessoas
 
 Escopo:
 
-- Este guia é destinado tanto aos iniciantes quanto aos usuários mais experientes. Os objetivos são *abrangencia*  (tudo que é importante), *especificidade* (dar exemplos concretos dos casos de usos mais comuns), e *brevidade* (evitar coisas que não são tão essenciais ou digressões que você pode facilmente encontrar pela internet). Todas as dicas são essenciais em alguma situação ou trazem uma economia notável de tempo em relação a outras alternativas.
+- Este guia é destinado tanto aos iniciantes quanto aos usuários mais experientes. Os objetivos são *abrangência* (tudo que é importante), *especificidade* (dar exemplos concretos dos casos de usos mais comuns), e *concisão* (evitar coisas que não são tão essenciais ou digressões que você pode facilmente encontrar pela Internet). Todas as dicas são essenciais em alguma situação ou trazem uma economia notável de tempo em relação a outras alternativas.
 - Este guia é escrito para o Linux. Muitos, mas não todos os items, se aplicam igualmente para o MacOS (ou mesmo o Cygwin).
-- O foco está na interatividade com  Bash, embora muitas dicas aqui sejam aplicáveis a outras `shells' e tambem a scripts em Bash, em geral.
-- Incluimos tanto comandos no Unix "padrão", quanto comandos que requeiram instalação de pacotes adicionais -- desde que estes sejam importantes o suficiente para merecerem sua inclusão nessa lista.
+- O foco está na interatividade com Bash, embora muitas dicas aqui sejam aplicáveis a outras `shells' e também a scripts em Bash, em geral.
+- Incluímos tanto comandos no Unix "padrão", quanto comandos que requeiram instalação de pacotes adicionais -- desde que estes sejam importantes o suficiente para merecerem sua inclusão nessa lista.
 
 Notas:
 
 - Para manter este guia em uma única página, o conteúdo implícito será incluído por referência. Você é competente o suficiente para verificar mais detalhes em outros lugares, desde que você já tenha entendido a ideia ou saiba o que procurar no Google. Use `apt-get`, `yum`, `dnf`, `pacman`, `pip` ou `brew` (quando adequado) para instalar novos programas.
-- Use [Explainshell](http://explainshell.com/) para encontrar informações úteis sobre o que fazem os comandos, as opções, pipes e etc.
+- Use [Explainshell](http://explainshell.com/) para encontrar informações úteis sobre o que fazem os comandos, as opções, pipes, etc.
 
 
 ## Básico
 
 - Aprenda o básico sobre Bash. Na verdade, digite `man bash` e pelo menos entenda superficialmente o seu funcionamento; é bastante simples de ler e nem é tão grande assim. Shells alternativas podem ser legais, mas  Bash é a mais poderosa e sempre está disponível (aprender  *somente* zsh, fish, etc,  é tentador quando você usa o seu próprio notebook, mas restringe você em muitas situações, por exemplo quando você quer  usar servidores de outros).
 
-- Aprenda bem pelo menos um editor de text tradicional. Idealmente o Vim (`vi`), já que nenhum outro funciona tão bem nos   terminais aleatórios que a gente encontra por ai (mesmo que  você prefira usar o Emacs, um  IDE, ou um  editor hipster  a maior parte  do tempo).
+- Aprenda bem pelo menos um editor de texto tradicional. Idealmente o Vim (`vi`), já que nenhum outro funciona tão bem nos   terminais aleatórios que a gente encontra por aí (mesmo que  você prefira usar o Emacs, um  IDE, ou um  editor hipster  a maior parte  do tempo).
 
-- Saiba como ler a documentação com o `man` (para os  curiosos, `man man` lista os números das seções, por exemplo, 1 se refere aos comandos "regulares", 5 é sobre arquivos/convenções, e 8  diz respeito a administração). Procure outros documentos do manual com o `apropos`. Saiba que alguns dos comandos não são executáveis, mas sim built-ins(embutidos) no bash, pra esses você poderá conseguir ajuda com `help` e `help -d`.
+- Saiba como ler a documentação com o `man` (para os  curiosos, `man man` lista os números das seções, por exemplo, 1 se refere aos comandos "regulares", 5 é sobre arquivos/convenções, e 8  diz respeito a administração). Procure outros documentos do manual com o `apropos`. Saiba que alguns dos comandos não são executáveis, mas sim built-ins (embutidos) no bash, pra esses você poderá conseguir ajuda com `help` e `help -d`.
 
 - Aprenda como fazer redirecionamento de saída e entrada usando `>` e `<` e pipes usando `|`. Aprenda sobre o stdout e stdin.
 
